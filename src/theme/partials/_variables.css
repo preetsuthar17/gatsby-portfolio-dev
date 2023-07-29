@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: markPro;
+  src: url('../Mark-Pro.ttf');
+}
+
+:root {
+  --primary-color: linear-gradient(
+    89.4deg,
+    rgba(194, 0, 39, 1) 0.8%,
+    rgba(10, 35, 104, 1) 99.4%
+  );
+  --bg-color: #fff;
+  --secondary-color: #23283e;
+  --danger-color: #fd531f;
+  --indigo: #757ff8;
+  --red: #ff3860;
+  --red-dark: #ff1443;
+  --red-light: #ff5c7c;
+  --blue: #498afb;
+  --blue-dark: #2674fa;
+  --blue-light: #6ca0fc;
+  --orange: #fa8142;
+  --orange-dark: #f96a1f;
+  --orange-light: #fb9865;
+  --green: #09c372;
+  --green-dark: #07a15e;
+  --green-light: #0be586;
+  --purple: #9166cc;
+  --purple-dark: #7d4bc3;
+  --purple-light: #a481d5;
+  --pink: #ff4088;
+  --pink-dark: #ff1c72;
+  --pink-light: #ff649e;
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray2: #b2becd;
+  --gray3: #6c7983;
+  --gray4: #454e56;
+  --gray5: #2a2e35;
+  --gray6: #12181b;
+  --p-color: #444444;
+  --h-color: #2d2e32;
+  /* --h2-color: #147efb; */
+  --h2-color: var(--danger-color);
+  --a-color: var(--danger-color);
+  --card-color: #f9f9f9;
+  --bar-color: #454647;
+  --nav-color: #faf9f6;
+  --poppins-font: 'Poppins', sans-serif;
+  --markpro-font: 'markPro', sans-serif;
+  --fw-1: 100;
+  --fw-2: 200;
+  --fw-3: 300;
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-7: 700;
+  --fw-8: 800;
+  --fw-9: 900;
+  --fw-10: 1000;
+}
+
+[data-theme='dark'] {
+  --primary-color: linear-gradient(
+    89.4deg,
+    rgba(61, 255, 216, 1) 0.8%,
+    rgba(245, 220, 151, 1) 99.4%
+  );
+  --bg-color: #18191e;
+
+  --secondary-color: #dcd7c1;
+  --danger-color: #02acd0;
+  --indigo: #ff8007;
+  --red: #00c79f;
+  --red-dark: #00ebbc;
+  --red-light: #00a383;
+  --blue: #b67504;
+  --blue-dark: #d98b05;
+  --blue-light: #935f03;
+  --orange: #057ebd;
+  --orange-dark: #0685e0;
+  --orange-light: #04479a;
+  --green: #f63c8d;
+  --green-dark: #f85e91;
+  --green-light: #f54179;
+  --purple: #6e9933;
+  --purple-dark: #82543c;
+  --purple-light: #5b7e2a;
+  --pink: #00bf77;
+  --pink-dark: #00e38d;
+  --pink-light: #00a761;
+  --gray0: #070707;
+  --gray1: #243e17;
+  --gray2: #4d4132;
+  --gray3: #93867c;
+  --gray4: #bab1a9;
+  --gray5: #d5d1ca;
+  --gray6: #ede7e4;
+  --p-color: #d3d3d3;
+  --h-color: #d2d1cd;
+  --h2-color: var(--danger-color);
+  --a-color: var(--danger-color);
+  --card-color: #1b1d22;
+  --nav-color: #22242a;
+  --bar-color: #454647;
+}

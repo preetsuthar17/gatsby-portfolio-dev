@@ -1,0 +1,58 @@
+@import './_variables.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.indigo-btn {
+  text-decoration: none !important;
+  border: 1pt solid var(--h-color) !important;
+  border-radius: 6px;
+  background-color: transparent !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: var(--h-color) !important;
+  font-family: var(--poppins-font) !important;
+  text-transform: lowercase !important;
+  -webkit-transition: all ease 0.1s !important;
+  -moz-transition: all ease 0.1s !important;
+  transition: all ease 1s;
+  box-shadow: 2px 2px 0px 1px var(--h-color);
+}
+
+.indigo-btn:active {
+  transform: translateY(5px) !important;
+  box-shadow: 0px 0px 0px 0px var(--h-color) !important;
+  font-weight: 500 !important;
+}
+
+[data-theme='dark'] {
+  .indigo-btn {
+    text-decoration: none !important;
+    border: 1pt solid var(--h-color) !important;
+    border-radius: 6px;
+    background-color: transparent !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: 10px 10px !important;
+    color: var(--h-color) !important;
+    font-family: var(--poppins-font) !important;
+    text-transform: lowercase !important;
+    -webkit-transition: all ease 0.1s !important;
+    -moz-transition: all ease 0.1s !important;
+    transition: all ease 1s;
+    box-shadow: 2px 2px 0px 1px var(--h-color);
+  }
+  .indigo-btn:active {
+    transform: translateY(5px) !important;
+    box-shadow: 0px 0px 0px 0px var(--h-color) !important;
+    font-weight: 500 !important;
+  }
+}

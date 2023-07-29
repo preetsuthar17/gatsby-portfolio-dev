@@ -1,0 +1,75 @@
+.skills-grid {
+  /* padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  gap: 1rem;
+  z-index: 999 !important;
+  cursor: default;
+  text-align: left;
+  flex-direction: row; */
+  display: flex;
+  gap: 6rem;
+}
+
+.skills-grid .img {
+  /* display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 240px; */
+}
+
+.skills-section p {
+  text-align: left !important;
+  padding-left: 10px !important;
+}
+
+#tooltip {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-grid {
+    display: flex !important;
+    gap: 3rem !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .skills-grid .img {
+    text-align: center !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .skills-section p {
+    text-align: center !important;
+    padding-left: 10px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skills-grid {
+    display: flex !important;
+    gap: 2rem !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+
+  .skills-grid .img {
+    text-align: center !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .skills-section p {
+    text-align: center !important;
+    padding-left: 10px !important;
+  }
+}

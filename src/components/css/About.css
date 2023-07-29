@@ -1,0 +1,23 @@
+.about_image {
+  align-items: justify;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+section {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+section p {
+  padding: 10px;
+  color: var(--p-color) !important;
+  font-family: var(--poppins-font);
+  font-size: 1.1rem;
+  font-weight: 400;
+  width: 100% !important;
+  text-align: justify;
+  margin: 28px 0px;
+  letter-spacing: 1.3px;
+}

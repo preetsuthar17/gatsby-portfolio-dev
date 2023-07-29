@@ -1,0 +1,22 @@
+.slide-up {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s, transform 0.5s !important;
+}
+.slide-right {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.5s, transform 0.5s !important;
+}
+
+/* purgecss ignore start */
+.slide-up.reveal {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+.slide-right.reveal {
+  opacity: 1 !important;
+  transform: translateX(0px) !important;
+}
+
+/* purgecss ignore end */

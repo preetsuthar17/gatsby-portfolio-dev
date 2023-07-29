@@ -1,0 +1,41 @@
+@import './_variables.css';
+@import './_buttons.css';
+
+.showcase h1 {
+  font-family: var(--poppins-font) !important;
+  font-size: 7rem !important;
+  color: var(--h-color) !important;
+  margin: 1rem !important;
+  font-family: var(--poppins-font);
+  font-weight: 700 !important;
+  letter-spacing: -0.3rem;
+  flex-direction: column !important;
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 700px) {
+  .showcase h1 {
+    font-size: 5.7rem !important;
+  }
+}
+
+.container-showcase {
+  display: flex !important;
+  text-align: left !important;
+  justify-content: left !important;
+  flex-direction: column !important;
+  align-items: left !important;
+}
+
+.showcase_buttons {
+  display: flex !important;
+  justify-content: left !important;
+  align-items: left !important;
+  text-align: left !important;
+  flex-direction: column !important;
+}
+
+#gradient-text {
+  color: var(--danger-color);
+  padding-bottom: 1rem;
+}

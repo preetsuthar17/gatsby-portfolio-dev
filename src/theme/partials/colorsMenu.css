@@ -1,0 +1,45 @@
+.color-menu {
+  position: relative;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px) !important;
+  transition: opacity 0.3s ease, visibility 0.3s ease,
+    transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 1;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.color-menu.open .color {
+  transform: translateY(0) !important;
+}
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .color-options {
+    position: flex;
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+}
