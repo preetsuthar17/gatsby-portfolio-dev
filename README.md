@@ -10,7 +10,10 @@ Author: [preetsuthar](https://preetsuthar.me) | [github](https://github.com/pree
 ![Alt text](image.png)
 </br>
 
-<video src="20230729-1356-59.8093197.mp4" controls title="Title"></video>
+<figure class="video_container">
+  <iframe src="20230729-1356-59.8093197.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 
 </br>
 
