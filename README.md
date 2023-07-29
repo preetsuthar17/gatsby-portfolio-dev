@@ -1,12 +1,19 @@
 
+Welcome to the Portfolio Website Template! This open-source repository, authored by Jane Smith, provides a versatile and customizable foundation for creating your personal or professional portfolio website. Whether you are a designer, developer, artist, or any creative professional, this template aims to showcase your work and skills in a visually appealing manner.
+
+
+</br>
+
 Author: [preetsuthar](https://preetsuthar.me) | [github](https://github.com/preetsuthar17)
 </br>
 
 ![Alt text](image.png)
+</br>
+
+<video src="20230729-1356-59.8093197.mp4" controls title="Title"></video>
 
 </br>
 
-Welcome to the Portfolio Website Template! This open-source repository, authored by Jane Smith, provides a versatile and customizable foundation for creating your personal or professional portfolio website. Whether you are a designer, developer, artist, or any creative professional, this template aims to showcase your work and skills in a visually appealing manner.
 
 Key Features:
 --------------------------------
