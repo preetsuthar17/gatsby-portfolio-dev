@@ -11,7 +11,7 @@ Author: [preetsuthar](https://preetsuthar.me) | [github](https://github.com/pree
 </br>
 
 <figure class="video_container">
-  <iframe src="20230729-1356-59.8093197.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="./20230729-1356-59.8093197.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 
