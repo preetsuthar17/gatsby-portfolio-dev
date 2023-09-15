@@ -65,7 +65,7 @@ const BlogFeed = () => {
     >
       <br />
       <br />
-      <h2 className="blogfeed-header">Recent Blog Posts</h2>
+      // <h2 className="blogfeed-header">Recent Blog Posts</h2>
       <br />
 
       <ul>
@@ -82,9 +82,9 @@ const BlogFeed = () => {
           </li>
         ))}
       </ul>
-      <a href="https://blog.preetsuthar.me" target="_blank">
-        📒 Check out more blogs...
-      </a>
+      // <a href="https://blog.preetsuthar.me" target="_blank">
+      //   📒 Check out more blogs...
+      // </a>
     </div>
   )
 }
